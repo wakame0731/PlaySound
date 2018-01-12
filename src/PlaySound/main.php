@@ -80,7 +80,7 @@ class PlaySound{
         $pk->x = $this->x;
         $pk->y = $this->y;
         $pk->z = $this->z;
-        $pk->volume = ((float)$this->volume)*100;
+        $pk->volume = ((float)$this->volume)*1;
         $pk->pitch = (float)$this->pitch;
         if($this->player==="@a"){
             $this->sender->getServer()->broadcastPacket($this->sender->getServer()->getOnlinePlayers(),$pk);           
