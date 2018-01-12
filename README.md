@@ -1,0 +1,2 @@
+# PlaySound
+playsoundコマンドとstopsoundコマンドを追加するプラグイン
