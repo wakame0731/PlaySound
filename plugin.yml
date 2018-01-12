@@ -8,7 +8,7 @@ description: playsoundコマンドとstopsoundコマンドを追加するプラ�
 commands:
   playsound:
     description: "サウンドを再生します"
-    usage: "/playsound <sound: string> [player: target] [position: x y z] [volume: float] [volume: float] [minimumVolume: float]"
+    usage: "/playsound <sound: string> [player: target] [position: x y z] [volume: float] [Pitch: float]"
     permission: PlaySound
   stopsound:
     description: "サウンドを停止します"
@@ -16,5 +16,5 @@ commands:
     permission: PlaySound
 permissions:
   PlaySound:
-    default: all
+    default: true
     description: "コマンド使える人"
