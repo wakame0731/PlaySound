@@ -1,0 +1,19 @@
+name: PlaySound
+main: PlaySound\Main
+version: 1.0.0
+api: [3.0.0-ALPHA10]
+author: wakame0731
+website: https://wakame.space/
+commands:
+  playsound:
+    description: "サウンドを再生します"
+    usage: "/playsound <sound: string> [player: target] [position: x y z] [volume: float] [volume: float] [minimumVolume: float]"
+    permission: PlaySound
+  stopsound:
+    description: "サウンドを停止します"
+    usage: "/stopsound <player: target> [sound: string]"
+    permission: PlaySound
+permissions:
+  PlaySound:
+    default: all
+    description: "コマンド使える人"
