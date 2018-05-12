@@ -1,7 +1,7 @@
 name: PlaySound
 main: PlaySound\Main
 version: 1.0.0
-api: [3.0.0-ALPHA10]
+api: [3.0.0-ALPHA13]
 author: wakame0731
 website: https://wakame.space/
 description: playsoundコマンドとstopsoundコマンドを追加するプラグイン
